@@ -1,0 +1,101 @@
+/* Add CSS here */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  height: 500px;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 0.3em;
+}
+
+.holder {
+  border-bottom-width: 1px;
+  border-color: black;
+  padding: 5px;
+}
+
+.active {
+  background-color: #4489fe;
+}
+
+.holder h1 {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.sphere {
+  height: 20px;
+  width: 20px;
+  border-width: 2px;
+  border-radius: 3em;
+}
+
+.closet {
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  display: flex;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.btn-1 {
+  background-color: #4489fe;
+  width: 70%;
+  color: white;
+  height: 40px;
+  transition: .7s;
+  border-radius: 0.3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-1:hover {
+  background-color: #4489fe;
+  width: 70%;
+  color: white;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 0.3em;
+  transform: scale(0.96);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-2 {
+  width: 25%;
+  height: 40px;
+  border-radius: 0.3em;
+  transition: .7s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 2px;
+}
+
+.btn-2:hover {
+  width: 25%;
+  height: 40px;
+  border-radius: 0.3em;
+  display: flex;
+  transform: scale(0.96);
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  border-width: 2px;
+}
